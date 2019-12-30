@@ -1,0 +1,11 @@
+const actions = {
+  SET_STATE: 'emailFlow/SET_STATE',
+  GET_EMAIL_FLOWS: 'emailFlow/GET_EMAIL_FLOWS',
+  GET_EMAIL_FLOW_BY_ID: 'emailFlow/GET_EMAIL_FLOW_BY_ID',
+  UPDATE_EMAIL_FLOW: 'emailFlow/UPDATE_EMAIL_FLOW',
+  DELETE_EMAIL_FLOWS: 'emailFlow/DELETE_EMAIL_FLOWS',
+  START_EMAIL_FLOW: 'emailFlow/START_EMAIL_FLOW',
+  CREATE_EMAIL_FLOW: 'emailFlow/CREATE_EMAIL_FLOW',
+}
+
+export default actions

@@ -1,0 +1,83 @@
+@import 'assets/styles/mixins.scss';
+.border {
+  background-color: white;
+  border-radius: 5px;
+  height: 100%;
+  position: relative;
+}
+.bottom {
+  // position: absolute;
+  height: 10%;
+  margin: 5px;
+  background-color: red;
+}
+.top {
+  position: relative;
+  height: 20%;
+  padding: 5px 5px;
+  // margin-left: 5px;
+  // background-color: gray;
+  align-items: center;
+  display: flex;
+}
+input {
+  // width: 50%;
+}
+.txtAuName {
+  // text-align: left;
+}
+.txtDesctiption {
+  width: 50%;
+  color: green;
+  text-align: center;
+}
+.body {
+  position: relative;
+  height: 80%;
+  margin: 3px;
+  // background-color: lavender;
+}
+.btnPreview {
+  bottom: 10px;
+  position: absolute;
+  right: 10px;
+}
+button {
+  margin: 3px;
+}
+.dynamic-delete-button {
+  cursor: pointer;
+  position: relative;
+  top: 4px;
+  font-size: 24px;
+  color: #999;
+  transition: all 0.3s;
+}
+.dynamic-delete-button:hover {
+  color: #777;
+}
+.dynamic-delete-button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.formFilter {
+  // border: 1px;
+  padding: 5px 5px;
+  box-shadow: 1px 1px 2px #888888;
+  width: 80%;
+  margin-top: 10px;
+  margin-left: 40px;
+  background-color: ghostwhite;
+  font-weight: bold;
+}
+
+.formItem {
+  display: 'block';
+  width: 100%;
+  padding-top: 20px;
+}
+
+.btnAdd {
+  position: relative;
+  float: left;
+}
