@@ -103,7 +103,7 @@
     "sequelize": "^5.19.4",
     "store": "^2.0.12",
     "styled-components": "^4.4.1",
-    "validator": "^12.1.0",
+    "validator": "^13.7.0",
     "xlsx": "^0.15.1"
   },
   "devDependencies": {
